@@ -32,7 +32,7 @@ def merge_data(keys, data)
   keys.each_key do |key_k, key_v|
     data.each do |data_k, data_v|
       if key_v == data_k
-        keys[key_k] = 
+        keys[key_k] 
     end
   end
 end
