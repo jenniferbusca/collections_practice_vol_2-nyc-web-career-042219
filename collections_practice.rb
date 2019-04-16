@@ -29,9 +29,9 @@ def count_elements(elements)
 end
 
 def merge_data(keys, data)
-  # keys.each_key do |key_k, key_v|
-  #   data.each do |data_k, data_v|
-  #     if key_v == data_k
-  #   end
-  # end
+  keys.each_key do |key_k, key_v|
+    data.each do |data_k, data_v|
+      if key_v == data_k
+    end
+  end
 end
